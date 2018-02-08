@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB86A7F202C4C8A00132467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A7E202C4C8A00132467 /* AppDelegate.m */; };
+		3BB86A82202C4C8A00132467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A81202C4C8A00132467 /* ViewController.m */; };
+		3BB86A85202C4C8A00132467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB86A83202C4C8A00132467 /* Main.storyboard */; };
+		3BB86A87202C4C8A00132467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB86A86202C4C8A00132467 /* Assets.xcassets */; };
+		3BB86A8A202C4C8A00132467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB86A88202C4C8A00132467 /* LaunchScreen.storyboard */; };
+		3BB86A8D202C4C8A00132467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A8C202C4C8A00132467 /* main.m */; };
+		3BB86A97202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A96202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.m */; };
+		3BB86AA2202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86AA1202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB86A93202C4C8A00132467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB86A72202C4C8A00132467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB86A79202C4C8A00132467;
+			remoteInfo = CRConfirmOrderServiceProtocol;
+		};
+		3BB86A9E202C4C8A00132467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB86A72202C4C8A00132467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB86A79202C4C8A00132467;
+			remoteInfo = CRConfirmOrderServiceProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB86A7A202C4C8A00132467 /* CRConfirmOrderServiceProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmOrderServiceProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB86A7D202C4C8A00132467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB86A7E202C4C8A00132467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB86A80202C4C8A00132467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BB86A81202C4C8A00132467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BB86A84202C4C8A00132467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB86A86202C4C8A00132467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB86A89202C4C8A00132467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB86A8B202C4C8A00132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB86A8C202C4C8A00132467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB86A92202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRConfirmOrderServiceProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB86A96202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProtocolTests.m; sourceTree = "<group>"; };
+		3BB86A98202C4C8A00132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB86A9D202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRConfirmOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB86AA1202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
+		3BB86AA3202C4C8A00132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB86A77202C4C8A00132467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A8F202C4C8A00132467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A9A202C4C8A00132467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB86A71202C4C8A00132467 = {
+			isa = PBXGroup;
+			children = (
+				3BB86A7C202C4C8A00132467 /* CRConfirmOrderServiceProtocol */,
+				3BB86A95202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests */,
+				3BB86AA0202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests */,
+				3BB86A7B202C4C8A00132467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB86A7B202C4C8A00132467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86A7A202C4C8A00132467 /* CRConfirmOrderServiceProtocol.app */,
+				3BB86A92202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.xctest */,
+				3BB86A9D202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB86A7C202C4C8A00132467 /* CRConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86A7D202C4C8A00132467 /* AppDelegate.h */,
+				3BB86A7E202C4C8A00132467 /* AppDelegate.m */,
+				3BB86A80202C4C8A00132467 /* ViewController.h */,
+				3BB86A81202C4C8A00132467 /* ViewController.m */,
+				3BB86A83202C4C8A00132467 /* Main.storyboard */,
+				3BB86A86202C4C8A00132467 /* Assets.xcassets */,
+				3BB86A88202C4C8A00132467 /* LaunchScreen.storyboard */,
+				3BB86A8B202C4C8A00132467 /* Info.plist */,
+				3BB86A8C202C4C8A00132467 /* main.m */,
+			);
+			path = CRConfirmOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+		3BB86A95202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86A96202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.m */,
+				3BB86A98202C4C8A00132467 /* Info.plist */,
+			);
+			path = CRConfirmOrderServiceProtocolTests;
+			sourceTree = "<group>";
+		};
+		3BB86AA0202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86AA1202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m */,
+				3BB86AA3202C4C8A00132467 /* Info.plist */,
+			);
+			path = CRConfirmOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB86A79202C4C8A00132467 /* CRConfirmOrderServiceProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB86AA6202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocol" */;
+			buildPhases = (
+				3BB86A76202C4C8A00132467 /* Sources */,
+				3BB86A77202C4C8A00132467 /* Frameworks */,
+				3BB86A78202C4C8A00132467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRConfirmOrderServiceProtocol;
+			productName = CRConfirmOrderServiceProtocol;
+			productReference = 3BB86A7A202C4C8A00132467 /* CRConfirmOrderServiceProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB86A91202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB86AA9202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocolTests" */;
+			buildPhases = (
+				3BB86A8E202C4C8A00132467 /* Sources */,
+				3BB86A8F202C4C8A00132467 /* Frameworks */,
+				3BB86A90202C4C8A00132467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB86A94202C4C8A00132467 /* PBXTargetDependency */,
+			);
+			name = CRConfirmOrderServiceProtocolTests;
+			productName = CRConfirmOrderServiceProtocolTests;
+			productReference = 3BB86A92202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BB86A9C202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB86AAC202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocolUITests" */;
+			buildPhases = (
+				3BB86A99202C4C8A00132467 /* Sources */,
+				3BB86A9A202C4C8A00132467 /* Frameworks */,
+				3BB86A9B202C4C8A00132467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB86A9F202C4C8A00132467 /* PBXTargetDependency */,
+			);
+			name = CRConfirmOrderServiceProtocolUITests;
+			productName = CRConfirmOrderServiceProtocolUITests;
+			productReference = 3BB86A9D202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB86A72202C4C8A00132467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jinhetech;
+				TargetAttributes = {
+					3BB86A79202C4C8A00132467 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3BB86A91202C4C8A00132467 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BB86A79202C4C8A00132467;
+					};
+					3BB86A9C202C4C8A00132467 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BB86A79202C4C8A00132467;
+					};
+				};
+			};
+			buildConfigurationList = 3BB86A75202C4C8A00132467 /* Build configuration list for PBXProject "CRConfirmOrderServiceProtocol" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB86A71202C4C8A00132467;
+			productRefGroup = 3BB86A7B202C4C8A00132467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB86A79202C4C8A00132467 /* CRConfirmOrderServiceProtocol */,
+				3BB86A91202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests */,
+				3BB86A9C202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB86A78202C4C8A00132467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB86A8A202C4C8A00132467 /* LaunchScreen.storyboard in Resources */,
+				3BB86A87202C4C8A00132467 /* Assets.xcassets in Resources */,
+				3BB86A85202C4C8A00132467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A90202C4C8A00132467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A9B202C4C8A00132467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB86A76202C4C8A00132467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB86A82202C4C8A00132467 /* ViewController.m in Sources */,
+				3BB86A8D202C4C8A00132467 /* main.m in Sources */,
+				3BB86A7F202C4C8A00132467 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A8E202C4C8A00132467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB86A97202C4C8A00132467 /* CRConfirmOrderServiceProtocolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB86A99202C4C8A00132467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB86AA2202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB86A94202C4C8A00132467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB86A79202C4C8A00132467 /* CRConfirmOrderServiceProtocol */;
+			targetProxy = 3BB86A93202C4C8A00132467 /* PBXContainerItemProxy */;
+		};
+		3BB86A9F202C4C8A00132467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB86A79202C4C8A00132467 /* CRConfirmOrderServiceProtocol */;
+			targetProxy = 3BB86A9E202C4C8A00132467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB86A83202C4C8A00132467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB86A84202C4C8A00132467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB86A88202C4C8A00132467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB86A89202C4C8A00132467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB86AA4202C4C8A00132467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BB86AA5202C4C8A00132467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB86AA7202C4C8A00132467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB86AA8202C4C8A00132467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BB86AAA202C4C8A00132467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRConfirmOrderServiceProtocol.app/CRConfirmOrderServiceProtocol";
+			};
+			name = Debug;
+		};
+		3BB86AAB202C4C8A00132467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRConfirmOrderServiceProtocol.app/CRConfirmOrderServiceProtocol";
+			};
+			name = Release;
+		};
+		3BB86AAD202C4C8A00132467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRConfirmOrderServiceProtocol;
+			};
+			name = Debug;
+		};
+		3BB86AAE202C4C8A00132467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ED3AWR73;
+				INFOPLIST_FILE = CRConfirmOrderServiceProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestle.CRConfirmOrderServiceProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRConfirmOrderServiceProtocol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB86A75202C4C8A00132467 /* Build configuration list for PBXProject "CRConfirmOrderServiceProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB86AA4202C4C8A00132467 /* Debug */,
+				3BB86AA5202C4C8A00132467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB86AA6202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB86AA7202C4C8A00132467 /* Debug */,
+				3BB86AA8202C4C8A00132467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB86AA9202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB86AAA202C4C8A00132467 /* Debug */,
+				3BB86AAB202C4C8A00132467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB86AAC202C4C8A00132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrderServiceProtocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB86AAD202C4C8A00132467 /* Debug */,
+				3BB86AAE202C4C8A00132467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB86A72202C4C8A00132467 /* Project object */;
+}
