@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Jinhetech. All rights reserved.
 //
 
-#import <Foundattion/Foundation.h>
+#import <Foundation/Foundation.h>
 
 @protocol CRConfirmOrderServiceProtocol <NSObject>
 
