@@ -51,6 +51,7 @@
 		3BB86A9D202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRConfirmOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86AA1202C4C8A00132467 /* CRConfirmOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
 		3BB86AA3202C4C8A00132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB86AB0202C4CAE00132467 /* CRConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		3BB86A7C202C4C8A00132467 /* CRConfirmOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				3BB86AAF202C4C9500132467 /* CRConfirmOrderServiceProtocol */,
 				3BB86A7D202C4C8A00132467 /* AppDelegate.h */,
 				3BB86A7E202C4C8A00132467 /* AppDelegate.m */,
 				3BB86A80202C4C8A00132467 /* ViewController.h */,
@@ -130,6 +132,14 @@
 				3BB86AA3202C4C8A00132467 /* Info.plist */,
 			);
 			path = CRConfirmOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		3BB86AAF202C4C9500132467 /* CRConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86AB0202C4CAE00132467 /* CRConfirmOrderServiceProtocol.h */,
+			);
+			path = CRConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
