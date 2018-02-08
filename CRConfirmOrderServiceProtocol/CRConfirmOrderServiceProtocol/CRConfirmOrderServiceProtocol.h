@@ -10,6 +10,8 @@
 
 @protocol CRConfirmOrderServiceProtocol <NSObject>
 
+@required;
+
 - (UIViewController *)confirmOrderViewControllerWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete;
 
 @end
