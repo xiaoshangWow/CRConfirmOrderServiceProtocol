@@ -1,6 +1,10 @@
 
 Pod::Spec.new do |s|
 
+s.name = "CRConfirmOrderServiceProtocol"
+
+s.version = "0.0.1"
+
 s.summary = "订单确认模块接口"
 
 s.description = <<-DESC
