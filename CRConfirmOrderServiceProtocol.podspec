@@ -1,8 +1,10 @@
+
 Pod::Spec.new do |s|
-s.summary = "CRConfirmOrderServiceProtocol."
+
+s.summary = "订单确认模块接口"
 
 s.description = <<-DESC
-                this is CRConfirmOrderServiceProtocol
+                组件化:订单确认模块接口
                 DESC
 
 s.homepage = "https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol"
